@@ -1,0 +1,71 @@
+/* Reset default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a background image to the seat selection page */
+body {
+    background-image: url('man.jpeg'); /* Set the path to your background image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* Style the seat selection container */
+.seat-selection-container {
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Style the seat labels */
+label.seat-label {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: #ccc;
+    color: #000;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    padding: 5px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+/* Style the selected seat labels */
+label.seat-label.selected {
+    background-color: #007bff; /* Blue background color for selected seats */
+    color: #fff;
+}
+
+/* Hover effect for the seat labels */
+label.seat-label:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    color: #fff;
+}
+
+.button {
+    padding: 10px 20px;
+    background-color: #007bff; /* Blue button color */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+/* Hover effect for the schedule buttons */
+.button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}

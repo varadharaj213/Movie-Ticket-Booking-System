@@ -1,0 +1,79 @@
+/* Reset default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a background image to the payment page */
+body {
+    background-image: url('man.jpeg'); /* Set the path to your background image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* Style the payment container */
+.payment-container {
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Style the payment form */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Style the payment input fields */
+input[type="text"], input[type="number"], select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Style the payment button */
+.button.payment-button {
+    padding: 10px 20px;
+    background-color: #007bff; /* Blue button color */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+/* Hover effect for the payment button */
+.button.payment-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+.button {
+    padding: 10px 20px;
+    background-color: #007bff; /* Blue button color */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+/* Hover effect for the schedule buttons */
+.button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
